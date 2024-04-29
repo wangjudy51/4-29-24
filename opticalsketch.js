@@ -1,6 +1,8 @@
 function setup() {
+  let canvas =
   createCanvas(400, 400, WEBGL);
   frameRate(20)
+  canvas.parent('sketch');
 }
 
 function draw() {
